@@ -1,3 +1,5 @@
 {
     "src": "Bubber!.png"
+    "use": "@vercel/node"
+
 }
