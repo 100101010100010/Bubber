@@ -1,5 +1,16 @@
 {
-    "src": "Bubber!.png"
-    "use": "@vercel/node"
-
+  "version": 2,
+  "builds": [
+    {
+      "src": ".Bubber!.png",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
 }
